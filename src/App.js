@@ -51,9 +51,7 @@ useEffect(()=> {
     e.preventDefault();
     setmovies([...movies, movie]);
   }
-  const add = movie => {
-    setmovies([...movies, movie]);
-} 
+
  
   /////////////////
 return(
